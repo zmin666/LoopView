@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zmin.loopview.MainActivity">
+
+    <com.zmin.loopview.LoopView
+        android:id="@+id/loopview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+       />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="click1"
+        android:text="开始倒计时"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="click2"
+        android:text="设置还剩下1分钟"/>
+
+
+</FrameLayout>
